@@ -1,0 +1,32 @@
+{
+  "name": "ai-code-review-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx --fix"
+  },
+  "dependencies": {
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.5",
+    "pinia": "^2.1.7",
+    "axios": "^1.6.2",
+    "socket.io-client": "^4.7.2",
+    "monaco-editor": "^0.45.0",
+    "d3": "^7.8.5",
+    "element-plus": "^2.4.4",
+    "@element-plus/icons-vue": "^2.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.4",
+    "vue-tsc": "^1.8.22",
+    "@types/node": "^20.10.4",
+    "@types/d3": "^7.4.3",
+    "@types/socket.io-client": "^3.0.0"
+  }
+}
